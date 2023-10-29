@@ -3,15 +3,16 @@
 #### Script para MySQL
 ![](FOTOS/1.png)
 #### Script para Apache2
-![](FOTOS/scriptapache.png)
+![](FOTOS/2.png)
 ### Una vez creados los scripts, configuraremos el Vagrantfile agregando ambas maquinas y aplicando el aprovisionamiento
-![](FOTOS/Vagrant.png)
+![](FOTOS/3.png)
 ### Una vez configurado todo, ponemos **vagrant up** y se empezaran a levantar ambas maquinas. Para comprobar que no han habido errores al iniciar las maquinas con el comando **vagrant status** podemos ver el estado de estas.
-![](FOTOS/VagrantStatus.png)
+![](FOTOS/4.png)
+![](FOTOS/5.png)
 
 # Configuracion MySQL
 ### Lo primero que hay que hacer es entrar en el directorio */etc/mysql/mariadb.conf.d* y ahí modificar el fichero *50-server.cnf*.
-![](FOTOS/1.png)
+![](FOTOS/Captura de pantalla 2023-10-27 094220.png)
 ### En este fichero cambiaremos la *bind-address* y pondremos la ip de nuestra maquina sql.
 ![](FOTOS/2.png)
 ### Ahora entramos a mysql como root y creamos un usuario con la ip de la maquina apache y le daremos todos los permisos en la base de datos que deseemos.
