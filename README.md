@@ -11,7 +11,7 @@
 ![](FOTOS/5.png)
 
 # Configuracion MySQL
-### Lo primero que hay que hacer es entrar en el directorio */etc/mysql/mariadb.conf.d* y ahí modificar el fichero *50-server.cnf*.
+### Lo primero que hay que hacer es entrar en el directorio */etc/mysql/mariadb.conf.d* y ahí modificar el fichero.
 ![](FOTOS/6.png)
 ### En este fichero cambiaremos la *bind-address* y pondremos la ip de nuestra maquina sql.
 ![](FOTOS/7.png)
